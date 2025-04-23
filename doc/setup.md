@@ -44,7 +44,7 @@ Lean 4 comes with a package manager named `lake`.
 Use `lake init foo` to initialize a Lean package `foo` in the current directory, and `lake build` to typecheck and build it as well as all its dependencies. Use `lake help` to learn about further commands.
 The general directory structure of a package `foo` is
 ```sh
-lakefile.lean  # package configuration
+lakefile.toml  # package configuration
 lean-toolchain # specifies the lean version to use
 Foo.lean       # main file, import via `import Foo`
 Foo/
